@@ -1,38 +1,38 @@
 Analysis report for source: TOSHIBA-2025-W27
 ==================================================
 
-Total samples: 10071
+Total samples: 10496
 
 Anomaly distribution:
-  NONE: 9925
-  BOTH: 56
-  AE_ONLY: 45
-  IF_ONLY: 45
+  NONE: 10314
+  AE_ONLY: 77
+  IF_ONLY: 77
+  BOTH: 28
 
-Critical events (IF + AE): 56
+Critical events (IF + AE): 28
 
 Statistics by anomaly type:
 
 [NONE]
-Count: 9925
-QBER: mean=0.0281, std=0.0008, min=0.0256, max=0.0366
-SKR: mean=535035.9508, std=26101.4414, min=358449.0000, max=616821.0000
+Count: 10314
+QBER: mean=0.0282, std=0.0020, min=0.0256, max=0.0695
+SKR: mean=534119.9354, std=31440.3297, min=222437.0000, max=616821.0000
 LOSS: mean=nan, std=nan, min=nan, max=nan
 
 [IF_ONLY]
-Count: 45
-QBER: mean=0.0285, std=0.0026, min=0.0264, max=0.0416
-SKR: mean=500672.7556, std=48877.5031, min=246502.0000, max=551265.0000
+Count: 77
+QBER: mean=0.0750, std=0.0107, min=0.0601, max=0.0954
+SKR: mean=132307.6100, std=91756.8283, min=1190.8300, max=232474.7280
 LOSS: mean=nan, std=nan, min=nan, max=nan
 
 [AE_ONLY]
-Count: 45
-QBER: mean=0.0278, std=0.0008, min=0.0261, max=0.0299
-SKR: mean=508090.4889, std=21007.0336, min=455130.0000, max=575014.0000
+Count: 77
+QBER: mean=0.0320, std=0.0106, min=0.0263, max=0.0650
+SKR: mean=449668.1167, std=149831.1991, min=1270.6150, max=535758.0000
 LOSS: mean=nan, std=nan, min=nan, max=nan
 
 [BOTH]
-Count: 56
-QBER: mean=0.0290, std=0.0045, min=0.0260, max=0.0498
-SKR: mean=475790.7500, std=76882.2261, min=143217.0000, max=535825.0000
+Count: 28
+QBER: mean=0.0598, std=0.0175, min=0.0261, max=0.0972
+SKR: mean=98774.9597, std=189585.9487, min=1154.7775, max=535146.0000
 LOSS: mean=nan, std=nan, min=nan, max=nan
