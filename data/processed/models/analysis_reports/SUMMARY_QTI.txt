@@ -1,24 +1,24 @@
 Analysis report for source: QTI
 ==================================================
 
-Total samples: 61
+Total samples: 11
 
 Anomaly distribution:
-  NONE: 60
-  BOTH: 1
+  NONE: 10
+  AE_ONLY: 1
 
-Critical events (IF + AE): 1
+Critical events (IF + AE): 0
 
 Statistics by anomaly type:
 
 [NONE]
-Count: 60
-QBER: mean=0.0151, std=0.0004, min=0.0145, max=0.0162
-SKR: mean=3380.7458, std=505.1525, min=1991.2401, max=4217.9309
-LOSS: mean=14.0483, std=0.3387, min=13.2000, max=14.4000
+Count: 10
+QBER: mean=0.0153, std=0.0005, min=0.0145, max=0.0162
+SKR: mean=3482.2942, std=280.3293, min=3056.1131, max=4027.2659
+LOSS: mean=13.8500, std=0.2415, min=13.5000, max=14.0000
 
-[BOTH]
+[AE_ONLY]
 Count: 1
-QBER: mean=0.0153, std=nan, min=0.0153, max=0.0153
-SKR: mean=1072.7657, std=nan, min=1072.7657, max=1072.7657
-LOSS: mean=14.3000, std=nan, min=14.3000, max=14.3000
+QBER: mean=0.0156, std=nan, min=0.0156, max=0.0156
+SKR: mean=2419.5414, std=nan, min=2419.5414, max=2419.5414
+LOSS: mean=13.5000, std=nan, min=13.5000, max=13.5000

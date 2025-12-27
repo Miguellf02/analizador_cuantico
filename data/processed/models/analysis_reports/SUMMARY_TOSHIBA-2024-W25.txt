@@ -1,24 +1,24 @@
 Analysis report for source: TOSHIBA-2024-W25
 ==================================================
 
-Total samples: 64
+Total samples: 14
 
 Anomaly distribution:
-  NONE: 63
-  BOTH: 1
+  NONE: 13
+  AE_ONLY: 1
 
-Critical events (IF + AE): 1
+Critical events (IF + AE): 0
 
 Statistics by anomaly type:
 
 [NONE]
-Count: 63
-QBER: mean=0.0317, std=0.0007, min=0.0301, max=0.0331
-SKR: mean=346582.7778, std=8320.7454, min=331104.0000, max=368851.0000
+Count: 13
+QBER: mean=0.0318, std=0.0009, min=0.0301, max=0.0329
+SKR: mean=342670.2308, std=8892.1921, min=332264.0000, max=359273.0000
 LOSS: mean=nan, std=nan, min=nan, max=nan
 
-[BOTH]
+[AE_ONLY]
 Count: 1
-QBER: mean=0.0334, std=nan, min=0.0334, max=0.0334
-SKR: mean=325714.0000, std=nan, min=325714.0000, max=325714.0000
+QBER: mean=0.0313, std=nan, min=0.0313, max=0.0313
+SKR: mean=360059.0000, std=nan, min=360059.0000, max=360059.0000
 LOSS: mean=nan, std=nan, min=nan, max=nan
